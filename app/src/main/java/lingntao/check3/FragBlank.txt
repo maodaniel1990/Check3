@@ -1,0 +1,91 @@
+package ling.tao.check;
+
+import android.app.Fragment;
+import android.os.Bundle;
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+public class Blank_frag extends Fragment {
+    Context context;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        context = getActivity();
+    }
+
+    // 回呼狀態 : Fragment 即將可以顯示在螢幕時
+    // 使用時機 : 用來設定 Fragment Layout 界面佈局
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View fragView = inflater.inflate(R.layout.frag_blank, container, false);
+        // 記得要 return Fragment Layout 物件
+        return fragView;
+    }
+
+    // 回呼狀態 : 可以開始取得 Fragment Layout 界面物件
+    // 使用時機 : 用來設定 Layout 上的 UI View 物件
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+    }
+
+    // 回呼狀態 : Fragment 從螢幕上消失時
+    // 使用時機 : 用來設定/儲存暫存資料
+    @Override
+    public void onPause() {
+        super.onPause();
+    }
+}
+
+
+//=========================================Button take switch//=========================================
+//            case R.id.button1:txt_offline[4]="1";Toast.makeText(context,txt_offline[4],Toast.LENGTH_SHORT).show();break;
+//            case R.id.button2:txt_offline[4]="2";Toast.makeText(context,txt_offline[4],Toast.LENGTH_SHORT).show();break;
+//            case R.id.button3:txt_offline[4]="3";Toast.makeText(context,txt_offline[4],Toast.LENGTH_SHORT).show();break;
+//            case R.id.button4:txt_offline[4]="4";Toast.makeText(context,txt_offline[4],Toast.LENGTH_SHORT).show();break;
+//            case R.id.button5:txt_offline[4]="5";Toast.makeText(context,txt_offline[4],Toast.LENGTH_SHORT).show();break;
+//            case R.id.button6:txt_offline[4]="6";Toast.makeText(context,txt_offline[4],Toast.LENGTH_SHORT).show();break;
+//            case R.id.button7:txt_offline[4]="7";Toast.makeText(context,txt_offline[4],Toast.LENGTH_SHORT).show();break;
+
+
+
+//===========================================Button getImage//===========================================
+//        txtView.setText("asdf");
+//        txtView2.setText("asdf");
+
+//        String[][] hey=link.linkselectdouble("select store from photo where id=3");
+//        txtView3.setText(hey[0][0]);
+//        yoyo=link.linkselect("select picture from photo where id=2");
+//        try{
+//            Bitmap bm = BitmapFactory.decodeByteArray(yoyo, 0, yoyo.length);
+//            DisplayMetrics dm = new DisplayMetrics();
+//            getWindowManager().getDefaultDisplay().getMetrics(dm);
+//
+//            iv.setMinimumHeight(dm.heightPixels);
+//            iv.setMinimumWidth(dm.widthPixels);
+//            iv.setImageBitmap(bm);
+//        }catch (Exception e){
+//
+//        }
+
+
+//===========================================Button getImage//===========================================
+//        lulu=link.getImage("select picture from photo where id=2");
+//        try{
+//            byte[] imageAsBytes = Base64.decode(lulu);
+//            byte[] decodedString = Base64.decode(lulu, Base64.DEFAULT);
+//            Bitmap bp = BitmapFactory.decodeByteArray(imageAsBytes, 0, imageAsBytes.length);
+//
+//            Bitmap bm = BitmapFactory.decodeByteArray(lulu, 0, lulu.length);
+//            DisplayMetrics dm = new DisplayMetrics();
+//            getWindowManager().getDefaultDisplay().getMetrics(dm);
+//
+//            iv.setMinimumHeight(dm.heightPixels);
+//            iv.setMinimumWidth(dm.widthPixels);
+//            iv.setImageBitmap(bm);
+//        }catch (Exception e){
+//
+//        }

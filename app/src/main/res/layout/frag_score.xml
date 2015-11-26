@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lingntao.check3.FragScore">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="品壽司區"
+            android:id="@+id/tv_s1"
+            android:gravity="right"
+            android:paddingLeft="15dp" />
+
+        <Spinner
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:entries="@array/score"
+            android:id="@+id/sp_score1"
+            android:layout_column="1"
+            android:gravity="center_horizontal"
+            android:paddingLeft="15dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="壽司吧台"
+            android:id="@+id/tv_s2"
+            android:gravity="right"
+            android:paddingLeft="15dp" />
+
+        <Spinner
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:entries="@array/score"
+            android:id="@+id/sp_score2"
+            android:layout_column="1"
+            android:gravity="center_horizontal"
+            android:paddingLeft="15dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="沙拉水果吧"
+            android:id="@+id/tv_s3"
+            android:gravity="right"
+            android:paddingLeft="15dp" />
+
+        <Spinner
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:entries="@array/score"
+            android:id="@+id/sp_score3"
+            android:layout_column="1"
+            android:gravity="center_horizontal"
+            android:paddingLeft="15dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="煮物"
+            android:id="@+id/tv_s4"
+            android:gravity="right"
+            android:paddingLeft="15dp" />
+
+        <Spinner
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:entries="@array/score"
+            android:id="@+id/sp_score4"
+            android:layout_column="1"
+            android:gravity="center_horizontal"
+            android:paddingLeft="15dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="炸物"
+            android:id="@+id/tv_s5"
+            android:gravity="right"
+            android:paddingLeft="15dp" />
+
+        <Spinner
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:entries="@array/score"
+            android:id="@+id/sp_score5"
+            android:layout_column="1"
+            android:gravity="center_horizontal"
+            android:paddingLeft="15dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="烤物"
+            android:id="@+id/tv_s6"
+            android:gravity="right"
+            android:paddingLeft="15dp" />
+
+        <Spinner
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:entries="@array/score"
+            android:id="@+id/sp_score6"
+            android:layout_column="1"
+            android:gravity="center_horizontal"
+            android:paddingLeft="15dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="水砧區"
+            android:id="@+id/tv_s7"
+            android:gravity="right"
+            android:paddingLeft="15dp" />
+
+        <Spinner
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:entries="@array/score"
+            android:id="@+id/sp_score7"
+            android:layout_column="1"
+            android:gravity="center_horizontal"
+            android:paddingLeft="15dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="後場／公共區域"
+            android:id="@+id/tv_s8"
+            android:gravity="right"
+            android:paddingLeft="15dp" />
+
+        <Spinner
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:entries="@array/score"
+            android:id="@+id/sp_score8"
+            android:layout_column="1"
+            android:gravity="center_horizontal"
+            android:paddingLeft="15dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="外場"
+            android:id="@+id/tv_s9"
+            android:gravity="right"
+            android:paddingLeft="15dp" />
+
+        <Spinner
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:entries="@array/score"
+            android:id="@+id/sp_score9"
+            android:layout_column="1"
+            android:gravity="center_horizontal"
+            android:paddingLeft="15dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/tv_s10"
+            android:text="表單確認"
+            android:gravity="right"
+            android:paddingLeft="15dp" />
+
+        <Spinner
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:entries="@array/score"
+            android:id="@+id/sp_score10"
+            android:layout_column="1"
+            android:gravity="center_horizontal"
+            android:paddingLeft="15dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="總分"
+            android:id="@+id/tv_tot"
+            android:gravity="right"
+            android:paddingLeft="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="click"
+            android:id="@+id/tv_score"
+            android:gravity="center_horizontal"
+            android:paddingLeft="15dp" />
+
+    </TableRow>
+
+</TableLayout>

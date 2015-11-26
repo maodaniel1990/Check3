@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="tao.ling.check2.Main">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/search" android:title="@string/load"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/local" android:title="@string/local"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/form" android:title="@string/form"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/score" android:title="@string/score"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
